@@ -1,0 +1,20 @@
+﻿:root {
+    --primary: #4392f1;
+    --primary-dark: #2f74d1;
+    --surface: #F1F3F5;
+    --surface-light: #F8F9FA;
+    --text-dark: #22262e;
+    --border: rgba(0, 0, 0, 0.15);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+html, body {
+    background-color: var(--surface);
+    color: var(--text-dark);
+}

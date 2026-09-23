@@ -1,0 +1,92 @@
+﻿
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 420px;
+    background-color: var(--surface);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+.card h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--text-dark);
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field [type="text"] label,
+.field [type="email"] label,
+.field [type="password"] label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.field [type="text"],
+.field [type="email"],
+.field [type="password"] {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.field [type="radio"] {
+    margin-right: 6px;
+}
+
+    .field [type="radio"] td {
+        background-color: red;
+    }
+
+
+.field [type="text"]:focus,
+.field [type="email"]:focus,
+.field [type="password"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(67, 146, 241, 0.25);
+}
+
+.btn-register {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-register:hover {
+    background-color: var(--primary-dark);
+}
+
+.loginRedirect {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
